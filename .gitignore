@@ -1,0 +1,13 @@
+# Godot 4+ specific ignores
+.godot/
+#import cache
+.import/
+#exported project builds
+.export/
+#temp files
+*.tmp
+#log files
+*.log
+#mono files for C# usage
+*.mono
+
