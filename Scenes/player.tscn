@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5g3qtjs8sv3e"]
+[gd_scene load_steps=3 format=3 uid="uid://c5g3qtjs8sv3e"]
 
 [ext_resource type="Texture2D" uid="uid://b7a52rba24844" path="res://SpaceShooterAssets/PNG/playerShip1_red.png" id="1_ky3vc"]
+[ext_resource type="Script" path="res://Scenes/player.cs" id="1_m0u13"]
 
 [node name="Player" type="Node2D"]
+script = ExtResource("1_m0u13")
 
 [node name="PlayerImage" type="Sprite2D" parent="."]
 texture = ExtResource("1_ky3vc")
